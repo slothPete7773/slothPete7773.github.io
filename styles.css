@@ -1,0 +1,56 @@
+/* ============ Start CSS Reset ============ */
+/* CSS Reset referenced from https://www.joshwcomeau.com/css/custom-css-reset/ */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+	margin: 0;
+}
+
+/*
+  3. Allow percentage-based heights in the application
+*/
+html,
+body {
+	height: 100%;
+}
+/* ============ End CSS Reset ============ */
+
+/* ============ Import Google Font ============ */
+@import url('https://fonts.googleapis.com/css2?family=Petrona:wght@100;200;300;400;500;600;700;800;900&family=Trirong:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* 
+font-family: 'Petrona', serif; <-- For EN Font
+font-family: 'Trirong', serif; <-- For TH Font
+*/
+/* ============ End Google Font ============ */
+
+* {
+	font-family: 'Petrona', serif;
+}
+
+body {
+	width: 100vw;
+	position: relative;
+}
+
+#wrapper {
+	width: 50%;
+	border: 2px solid brown;
+
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#header_name {
+	font-size: 4rem;
+}
