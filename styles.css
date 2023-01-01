@@ -34,15 +34,15 @@ p {
 /* ============ End CSS Reset ============ */
 
 /* ============ Import Google Font ============ */
-@import url('https://fonts.googleapis.com/css2?family=Petrona:wght@100;200;300;400;500;600;700;800;900&family=Trirong:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700;800;900&family=Trirong:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* 
-font-family: 'Petrona', serif; <-- For EN Font
+font-family: 'Overpass', sans serif; <-- For EN Font
 font-family: 'Trirong', serif; <-- For TH Font
 */
 /* ============ End Google Font ============ */
 
 * {
-	font-family: 'Petrona', serif;
+	font-family: 'Overpass', serif;
 }
 
 body {
