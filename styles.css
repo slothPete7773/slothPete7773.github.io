@@ -23,6 +23,14 @@ html,
 body {
 	height: 100%;
 }
+
+p {
+	line-height: 130%;
+	overflow-wrap: break-word;
+	padding-bottom: 0.1rem;
+	/* word-break: break-all; */
+}
+
 /* ============ End CSS Reset ============ */
 
 /* ============ Import Google Font ============ */
@@ -42,8 +50,14 @@ body {
 	position: relative;
 }
 
+#header_name {
+	font-size: 3rem;
+}
+
 #wrapper {
-	width: 50%;
+	width: 80%;
+	/* min-width: 50%; */
+	/* max-width: 60vw; */
 	border: 2px solid brown;
 
 	position: absolute;
@@ -51,6 +65,95 @@ body {
 	transform: translateX(-50%);
 }
 
-#header_name {
-	font-size: 4rem;
+#contact_content {
+	/* margin-top: 0.3rem; */
+	/* margin-bottom: 1rem; */
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	row-gap: 0.5rem;
+}
+
+.container {
+	margin-top: 1rem;
+}
+
+.container > h1,
+h2 {
+	margin-bottom: 0.5rem;
+}
+
+.contact_item {
+	display: flex;
+}
+
+.contact_item > img {
+	position: absolute;
+	/* position: relative; */
+	/* left: 0; */
+	transform: translateX(-150%);
+	width: 1.2rem;
+	height: 1.2rem;
+}
+
+.text_link {
+	color: #1685bd;
+	text-decoration: none;
+}
+
+.exp_heading,
+.edu_heading {
+	font-size: 1.3rem;
+}
+
+.exp_org,
+.edu_org {
+	font-size: 1.1rem;
+}
+
+.exp_period,
+.edu_period,
+.exp_description {
+	font-size: 1rem;
+}
+
+.content,
+.cert_items,
+.edu_content {
+	position: relative;
+	margin-left: 2rem;
+}
+
+.exp_content:not(:last-child),
+.cert_content:not(:last-child) {
+	margin-bottom: 1rem;
+}
+
+/* {
+	margin-bottom: 1rem;
+} */
+
+.skill_content {
+	position: relative;
+	left: 1rem;
+}
+.exp_content > img {
+	position: absolute;
+	transform: translateX(-120%) translateY(10%);
+	width: 1.3rem;
+	height: 1.3rem;
+}
+
+.edu_content > img {
+	position: absolute;
+	transform: translateX(-120%) translateY(10%);
+	width: 1.3rem;
+	height: 1.3rem;
+}
+
+.cert_content > img {
+	position: absolute;
+	transform: translateX(-120%) translateY(0%);
+	width: 1.3rem;
+	height: 1.3rem;
 }
