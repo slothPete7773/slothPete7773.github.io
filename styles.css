@@ -55,11 +55,11 @@ body {
 }
 
 #wrapper {
-	width: 80%;
+	width: 90%;
 	/* min-width: 50%; */
 	/* max-width: 60vw; */
-	border: 2px solid brown;
-
+	padding: 3rem;
+	border: 2px solid rgb(107, 103, 103);
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
@@ -101,59 +101,47 @@ h2 {
 	text-decoration: none;
 }
 
-.exp_heading,
-.edu_heading {
+.text_link:hover {
+	text-decoration: underline;
+}
+
+.heading {
 	font-size: 1.3rem;
 }
 
-.exp_org,
-.edu_org {
+.org {
 	font-size: 1.1rem;
 }
 
-.exp_period,
-.edu_period,
-.exp_description {
+.period,
+.description {
 	font-size: 1rem;
 }
 
-.content,
-.cert_items,
-.edu_content {
+.content {
 	position: relative;
-	margin-left: 2rem;
+	padding-bottom: 0.5rem;
+	margin-left: 3rem;
 }
+
+/* #contact_content {
+	margin-left: 4rem;
+} */
 
 .exp_content:not(:last-child),
 .cert_content:not(:last-child) {
 	margin-bottom: 1rem;
 }
 
-/* {
-	margin-bottom: 1rem;
-} */
-
 .skill_content {
 	position: relative;
 	left: 1rem;
 }
-.exp_content > img {
-	position: absolute;
-	transform: translateX(-120%) translateY(10%);
-	width: 1.3rem;
-	height: 1.3rem;
-}
-
-.edu_content > img {
-	position: absolute;
-	transform: translateX(-120%) translateY(10%);
-	width: 1.3rem;
-	height: 1.3rem;
-}
-
+.exp_content > img,
+.content > img,
 .cert_content > img {
 	position: absolute;
-	transform: translateX(-120%) translateY(0%);
+	transform: translateX(-150%);
 	width: 1.3rem;
 	height: 1.3rem;
 }
