@@ -57,12 +57,14 @@ body {
 #wrapper {
 	width: 90%;
 	/* min-width: 50%; */
-	/* max-width: 60vw; */
+	max-width: 60vw;
 	padding: 3rem;
 	border: 2px solid rgb(107, 103, 103);
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
+	/* filter: drop-shadow(0.5rem 0.5rem 0.75rem red); */
+	box-shadow: 0.3rem 0.5rem 1rem 0.4rem gray;
 }
 
 #contact_content {
